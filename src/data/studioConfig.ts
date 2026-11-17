@@ -39,9 +39,9 @@ export const STUDIO_CONFIG = {
     tagline: 'Custom Skin Artistry. Medical-Grade Precision.',
     subtitle:
       'Bespoke black-and-grey realism, fine-line botanicals, bold blackwork, and curated titanium body piercing crafted in a sterile private atelier.',
-    logoUrl: '/assets/aistudio/2076187a-8317-462c-b138-7ea51f81b9ca_4078a396.jpg',
-    heroImage: '/src/assets/images/hero_tattoo_studio_1794810574376.jpg',
-    craftImage: '/src/assets/images/studio_artist_craft_1794810575184.jpg',
+    logoUrl: './images/logo.jpg',
+    heroImage: './images/hero_tattoo_studio.jpg',
+    craftImage: './images/studio_artist_craft.jpg',
   },
   contact: {
     whatsappNumber: '7356471493',
@@ -109,7 +109,7 @@ export const STUDIO_CONFIG = {
     role: 'Lead Tattoo Artist & Founder',
     experienceHighlight: '8+ Years of Experience in Tattoo Artistry',
     specialties: 'Black & Grey Realism · Portrait · Custom Sleeves · Fine-Line · Piercing',
-    photoUrl: '/assets/aistudio/0ddd1d13-ab49-4a83-bcf8-343bbe51e477_0dd4f42d.jpg',
+    photoUrl: './images/founder_varghese.jpg',
     bio: 'Known for high-contrast chiaroscuro shading and anatomical flow, Varghese founded INKED TATTOOZ & Piercing studio to deliver custom skin artistry backed by uncompromising clinical hygiene.',
     availability: 'Mon – Sun by appointment',
     credentials: [
@@ -151,7 +151,7 @@ export const STUDIO_CONFIG = {
       placement: 'Upper Arm / Deltoid',
       sessionTime: '6 Hours · Single Session',
       year: '2026',
-      image: '/assets/aistudio/f97dde25-9052-49e7-b6e1-d7ae41e0b8e5_edd203f3.jpg',
+      image: './images/tattoo_krishna.jpg',
       aspect: 'portrait',
       notes:
         'Black-and-grey mythological realism featuring intricate crown filigree, peacock feather detail, soft grey-wash skin shading, and dynamic spinning chakra motion.',
@@ -164,7 +164,7 @@ export const STUDIO_CONFIG = {
       placement: 'Upper Arm / Shoulder',
       sessionTime: '6.5 Hours · Single Session',
       year: '2026',
-      image: '/assets/aistudio/452f74b3-cf98-44c2-b588-57014cf1cdf9_341db198.jpg',
+      image: './images/tattoo_lion.jpg',
       aspect: 'portrait',
       notes:
         'Black-and-grey wildlife realism pairing a roaring crowned lion with vivid blue eyes and a richly saturated crimson rose beneath, built with layered fur texture.',
@@ -177,7 +177,7 @@ export const STUDIO_CONFIG = {
       placement: 'Forearm',
       sessionTime: '4.5 Hours · Single Session',
       year: '2026',
-      image: '/assets/aistudio/a0278e3e-18ab-4e4f-b3dd-04b05426d678_6821e413.jpg',
+      image: './images/tattoo_archangel.jpg',
       aspect: 'portrait',
       notes:
         'Fine-line classical engraving and micro-shaded black-and-grey artwork featuring a winged guardian angel with radiating halo lines above a custom "Dilan" scrollwork banner.',
@@ -190,7 +190,7 @@ export const STUDIO_CONFIG = {
       placement: 'Inner Forearm',
       sessionTime: '5.5 Hours · Single Session',
       year: '2026',
-      image: '/assets/aistudio/45c7e538-d5d5-4ea3-8e94-725e65163d0b_415db490.jpg',
+      image: './images/tattoo_messi.jpg',
       aspect: 'portrait',
       notes:
         'Black-and-grey micro-realism portrait capturing Lionel Messi kissing the World Cup trophy, rendered with fine tonal shading, #10 jersey detail, and soft atmospheric framing.',
@@ -203,7 +203,7 @@ export const STUDIO_CONFIG = {
       placement: 'Inner Forearm',
       sessionTime: '4 Hours · Single Session',
       year: '2026',
-      image: '/assets/aistudio/018be7a3-a444-4712-926f-f04cbfc1a394_53b84b80.jpg',
+      image: './images/tattoo_astronaut.jpg',
       aspect: 'portrait',
       notes:
         'Illustrative blackwork piece depicting a floating astronaut over a tapered geometric beam, combining crisp fine linework, solid visor blackouts, and subtle dotwork depth.',
@@ -216,7 +216,7 @@ export const STUDIO_CONFIG = {
       placement: 'Outer Upper Arm',
       sessionTime: '4 Hours · Single Session',
       year: '2026',
-      image: '/assets/aistudio/e9d7d7a9-1916-4590-9ca0-ab3aec78a0bc_309535c6.jpg',
+      image: './images/tattoo_bike.jpg',
       aspect: 'portrait',
       notes:
         'Full-colour illustrative trail scene combining a bold black mountain biker silhouette, pine tree detail, warm sunset gradient shading, and custom typography.',
@@ -229,7 +229,7 @@ export const STUDIO_CONFIG = {
       placement: 'Multi-Point Ear Curation',
       sessionTime: '45 Minutes · Sterile Needle',
       year: '2026',
-      image: '/src/assets/images/piercing_curated_ear_1794810577073.jpg',
+      image: './images/piercing_curated_ear.jpg',
       aspect: 'landscape',
       notes:
         'Anatomically spaced double helix, conch, tragus, and triple lobe with anodized gold & implant-grade titanium.',
