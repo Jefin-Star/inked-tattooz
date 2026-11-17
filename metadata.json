@@ -1,0 +1,6 @@
+{
+  "name": "INKED TATTOOZ & Piercing Studio",
+  "description": "Custom tattoos, fine-line artistry, and sterile body piercing at INKED TATTOOZ & Piercing studio. Explore artist portfolios and book a consultation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

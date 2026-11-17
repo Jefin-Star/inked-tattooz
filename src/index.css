@@ -1,0 +1,84 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  :root {
+    --font-display: 'Outfit', system-ui, sans-serif;
+    --font-sans: 'DM Sans', system-ui, sans-serif;
+    --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  }
+
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    color-scheme: dark;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  .font-mono-tabular {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+@keyframes neon-ring-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.neon-logo-frame {
+  position: relative;
+  overflow: hidden;
+  padding: 3px;
+  box-shadow:
+    0 0 28px rgba(220, 38, 38, 0.42),
+    0 0 60px rgba(225, 29, 72, 0.18);
+}
+
+.neon-logo-frame::before {
+  content: '';
+  position: absolute;
+  inset: -65%;
+  background: conic-gradient(
+    from 0deg,
+    #dc2626 0deg,
+    #ef4444 65deg,
+    #ffffff 95deg,
+    #ef4444 125deg,
+    #180609 195deg,
+    #dc2626 260deg,
+    #ffffff 305deg,
+    #dc2626 360deg
+  );
+  animation: neon-ring-spin 5.5s linear infinite;
+  will-change: transform;
+}
+
+.neon-glow-card {
+  box-shadow:
+    0 0 0 1px rgba(225, 29, 72, 0.28),
+    0 0 36px -10px rgba(220, 38, 38, 0.28);
+}
+
+.neon-glow-card:hover {
+  box-shadow:
+    0 0 0 1px rgba(239, 68, 68, 0.45),
+    0 0 44px -8px rgba(220, 38, 38, 0.36);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+
+  .neon-logo-frame::before {
+    animation: none;
+  }
+}
